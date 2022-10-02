@@ -1,9 +1,9 @@
 #### SER594: Project Proposal
-#### Creating and Analysing Asteroid Dataset and Hazardous Asteroid Prediction
+#### Creating and Analyzing Asteroid Dataset and Hazardous Asteroid Prediction
 #### Mayank Mathur
 #### September 25,2022
 
-Keywords: Data Classification, Machine Learning, Data Scraping , Neural Networks,Deep Learning. 
+Keywords: Data Scraping , Hazardous Asteroids, NASA , Classifier.
 
 Description: For this project, I will be using JPL Small-Body Database Search Engine which is maintained by Nasa Jet Propulsion Lab. I will use their search engine to create my own dataset of astroids and then analyze it. Classification models will be trained to then try to classify asteroids into potentially hazardous asteroids. This can be done as JPL Small-Body Dataset has a column marking astroids as potentially hazardous. I will use this data to train on a subset of the dataset hosted and then run predictions on a validation set.
 
