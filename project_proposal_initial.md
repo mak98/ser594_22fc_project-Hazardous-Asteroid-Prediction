@@ -5,7 +5,7 @@
 
 Keywords: Data Scraping , Hazardous Asteroids, NASA , Classifier.
 
-Description: For this project, I will be using JPL Small-Body Database Search Engine which is maintained by Nasa Jet Propulsion Lab. I will use their search engine to create my own dataset of astroids and then analyze it. Classification models will be trained to then try to classify asteroids into potentially hazardous asteroids. This can be done as JPL Small-Body Dataset has a column marking astroids as potentially hazardous. I will use this data to train on a subset of the dataset hosted and then run predictions on a validation set.
+Description: For this project, I will be using JPL Small-Body Database Search Engine which is maintained by Nasa Jet Propulsion Lab. I will use their search engine to create my own dataset of asteroids and then analyze it. Classification models will be trained to then try to classify asteroids into potentially hazardous asteroids. This can be done as JPL Small-Body Dataset has a column marking asteroids as potentially hazardous. I will use this data to train on a subset of the dataset hosted and then run predictions on a validation set.
 
 Intellectual Merit: Creating a hazardous asteroid prediction model can help scientists classify any potential new asteroids that get discovered or if any old one deviates from its original behavior. While classification models already exist for this problem, the papers I found only focused on implementing deep learning models without any explanation as to why they chose this approach. This is why I want to implement multiple classification algorithms and compare them to get a better understanding. 
 
