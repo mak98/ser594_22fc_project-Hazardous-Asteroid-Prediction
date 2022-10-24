@@ -1,4 +1,7 @@
 __pycache__/*
 data_original/*
+!data_original/.gitkeep
 data_processing/*
+!data_processing/.gitkeep
 visuals/*
+!visuals/.gitkeep
