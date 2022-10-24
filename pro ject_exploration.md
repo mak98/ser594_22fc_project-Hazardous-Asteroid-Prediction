@@ -1,7 +1,7 @@
 #### SERX94: Exploratory Data Munging and Visualization
-#### TODO Hazardous Asteroid Prediction
-#### TODO Mayank Mathur
-#### TODO October 22,2022
+#### Hazardous Asteroid Prediction
+#### Mayank Mathur
+#### October 22,2022
  
 ## Basic Questions
 **Dataset Author(s):** Nasa Jet Propulsion Laboratory
