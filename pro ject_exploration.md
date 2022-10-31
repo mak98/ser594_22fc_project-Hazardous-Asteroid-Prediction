@@ -11,33 +11,34 @@
 **Dataset Record Count:** 958524
  
 **Dataset Field Meanings:**
- 
-   SPK-ID: identifier in the JPL Small-Body Database
-   Object ID: Object internal database ID
-   Object fullname: Object full name/designation
-   pdes: Object primary designation
-   name: Object IAU name
-   NEO: Near-Earth Object (NEO) flag
-   PHA: Potentially Hazardous Asteroid (PHA) flag
-   H: Absolute magnitude parameter.The visual magnitude an observer would record if the asteroid were placed 1 Astronomical Unit (au) away, and 1 au from the Sun and at a zero phase angle. The value is reverse logrithmic.
-   Diameter: object diameter (from equivalent sphere) Km Unit
-   Albedo: Geometric albedo
-   Diameter_sigma: 1-sigma uncertainty in object diameter Km Unit
-   Orbit_id: Orbit solution ID
-   Epoch: Epoch of osculation in modified Julian day form
-   Equinox: Equinox of reference frame
-   e: Eccentricity of orbit
-   a: Semi-major axis of orbit
-   q: perihelion distance
-   i: inclination; angle with respect to x-y ecliptic plane
-   tp: Time of perihelion passage
-   moid: Earth Minimum Orbit Intersection Distance
-   class: Orbit class of the asteroid.
-   per:Time period of 1 orbit in days
-   Ad: Aphelion Distance
-   ma:Mean Anomaly
-   W: Argument of Perihelion
-   om:Longitude of ascending node
+<ul>
+<li>SPK-ID: identifier in the JPL Small-Body Database</li>
+<li>Object ID: Object internal database ID</li>
+<li>Object fullname: Object full name/designation</li>
+<li>pdes: Object primary designation</li>
+<li>name: Object IAU name</li>
+<li>NEO: Near-Earth Object (NEO) flag</li>
+<li>PHA: Potentially Hazardous Asteroid (PHA) flag</li>
+<li>H: Absolute magnitude parameter.The visual magnitude an observer would record if the asteroid were placed 1 Astronomical Unit (au) away, and 1 au from the Sun and at a zero phase angle. The value is reverse logrithmic.</li>
+<li>Diameter: object diameter (from equivalent sphere) Km Unit</li>
+<li>Albedo: Geometric albedo</li>
+<li>Diameter_sigma: 1-sigma uncertainty in object diameter Km Unit</li>
+<li>Orbit_id: Orbit solution ID</li>
+<li>Epoch: Epoch of osculation in modified Julian day form</li>
+<li>Equinox: Equinox of reference frame</li>
+<li>e: Eccentricity of orbit</li>
+<li>a: Semi-major axis of orbit</li>
+<li>q: perihelion distance</li>
+<li>i: inclination; angle with respect to x-y ecliptic plane</li>
+<li>tp: Time of perihelion passage</li>
+<li>moid: Earth Minimum Orbit Intersection Distance</li>
+<li>class: Orbit class of the asteroid.</li>
+<li>per:Time period of 1 orbit in days</li>
+<li>ad: Aphelion Distance</li>
+<li>ma:Mean Anomaly</li>
+<li>W: Argument of Perihelion</li>
+<li>om:Longitude of ascending node</li>
+</ul>
    
 Any column with sigma prefix is 1-sigma uncertainty in the measure of non prefix column value.
    Any column with ld as a suffix is the same measurement in Lunar Distance.
