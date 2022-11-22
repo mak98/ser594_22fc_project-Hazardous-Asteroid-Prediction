@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 def load_data(path):
     data=pd.read_csv(path,low_memory=False)
@@ -23,7 +22,8 @@ def preprocess(data,savePath):
     data['q'] = data['q'].apply(lambda x: x*au)
     data['ad'] = data['ad'].apply(lambda x: x*au)
     data['moid'] = data['moid'].apply(lambda x: x*au)
-
+    data['pha'] = data['pha'].map({'Y': 1, 'N': 0})
+    data=pd.get_dummies(data) #making categorical data to dummy values 
     print("Dataset after cleaning:")
     print(data.shape)
     print(data.info())

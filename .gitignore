@@ -5,3 +5,7 @@ data_processing/*
 !data_processing/.gitkeep
 visuals/*
 !visuals/.gitkeep
+models/*
+!models/.gitkeep
+evaluation/*
+!evaluation/.gitkeep
